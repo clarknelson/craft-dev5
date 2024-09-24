@@ -1,0 +1,37 @@
+{% set bodyClass = '' %}
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta charset="utf-8"/>
+		<title>Welcome to Craft CMS</title>
+		<meta name="description" content="A new website to be enjoyed by many visitors">
+		<meta name="author" content="Clark Nelson and Company">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
+		<meta name="referrer" content="origin-when-cross-origin"/>
+
+		<meta property="og:title" content="Your Website Title">
+		<meta property="og:description" content="A brief description of your page or website.">
+		<meta property="og:image" content="/path/to/og-image.jpg">
+		<meta property="og:url" content="https://www.yourwebsite.com">
+		<meta property="og:type" content="website">
+
+		{% block head %}
+			{# Place for more script imports or meta information if needed #}
+		{% endblock %}
+
+		{% css %}
+		{{craft.app.view.renderFile('@webroot/dist/styles/critical.css') | raw}}
+		{% endcss %}
+	</head>
+
+	<body class="{{ bodyClass }}">
+		<link rel="preload" href="/dist/styles/main.css" as="style" onload="this.rel='stylesheet'">
+		<noscript><link rel="stylesheet" href="/dist/styles/main.css"></noscript>
+		{% block content %}
+			{# Placeholder content to be replaced in each template #}
+		{% endblock %}
+
+		 <script src="/dist/scripts/main.js"></script>
+	</body>
+</html>

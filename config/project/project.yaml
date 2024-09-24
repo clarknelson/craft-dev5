@@ -1,4 +1,4 @@
-dateModified: 1727193166
+dateModified: 1727211333
 email:
   fromEmail: email@clarknelson.com
   fromName: 'Craft Dev'
@@ -6,7 +6,29 @@ email:
 meta:
   __names__:
     4ce5ba56-132c-4aca-9085-8d7f1568d039: 'Craft Dev' # Craft Dev
+    8f8318c7-5311-4b13-9a2c-ba5e1ad60ea1: Simple # Simple
     44839323-84f3-45bd-84de-324e58547d82: 'Craft Dev' # Craft Dev
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 5.1.1
+  kint:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.0.0
+  twigpack:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true

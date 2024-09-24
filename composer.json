@@ -21,7 +21,12 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
+    "craftcms/ckeditor": "^4.2.0",
     "craftcms/cms": "^5.0.0",
+    "craftcms/feed-me": "^6.3.0",
+    "nystudio107/craft-twigpack": "^5.0.0",
+    "verbb/kint": "^4.0.1",
+    "verbb/super-table": "^4.0.2",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
