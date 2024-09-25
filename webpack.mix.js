@@ -1,5 +1,8 @@
 const mix = require('laravel-mix');
 
+
+mix.browserSync('craft-dev5.ddev.site');
+
 mix.setPublicPath('web');
 
 mix.js('app/scripts/main.js', 'dist/scripts');
@@ -19,6 +22,7 @@ mix.sass('app/styles/main.scss', 'dist/styles')
             require('autoprefixer'),  // Optionally include autoprefixer
         ],
     });
+
 
 if (mix.inProduction()) {
     mix.version();

@@ -1,4 +1,4 @@
-dateModified: 1727290065
+dateModified: 1727293041
 email:
   fromEmail: email@clarknelson.com
   fromName: 'Craft Dev'
@@ -16,18 +16,22 @@ meta:
     02eb5833-14a3-487d-afde-cc112f348db4: 'Menu Text' # Menu Text
     4ce5ba56-132c-4aca-9085-8d7f1568d039: 'Craft Dev' # Craft Dev
     4ecee3a7-96c2-4860-b001-0cde43217607: 'SEO Images' # SEO Images
+    06f7c30f-645c-489e-8904-daafa63d6d8d: 'Block Images' # Block Images
     8f8318c7-5311-4b13-9a2c-ba5e1ad60ea1: Simple # Simple
+    9ca01644-adc3-480f-8695-e8d08cb10aa3: 'Block Content' # Block Content
     17bddf63-84fd-4e74-8ec2-e66a058f436a: 'Menu Link' # Menu Link
     44a916f9-6a95-4aa3-9a01-55398205d5fb: New # New
     55e07d5f-219a-41ac-8c00-14c62dd24b81: 'Contact Form' # Contact Form
     323b29c4-5118-4e14-84dd-bf3b0c5e82f1: 'Menu Items' # Menu Items
     527a76fc-bf75-491a-98b1-8745e1a8ac6f: SEO # SEO
+    01913194-daa0-410c-b087-4aec77bd3f12: 'Text Block' # Text Block
     5935110c-eb30-4120-812a-7390e5b2d098: 'Menu Items' # Menu Items
     44839323-84f3-45bd-84de-324e58547d82: 'Craft Dev' # Craft Dev
     a7b61f14-a0a9-472c-a7b8-59911fed4607: Pages # Pages
     bea4635d-f923-454a-89a4-810c258cf295: Pages # Pages
     cac5c284-5703-447e-aade-e70c2f205bf1: Globals # Globals
     cb43c2b2-7fc9-49d3-96cb-82e5c572b172: Images # Images
+    f57ab31f-d939-4e7f-87ea-d9248dba5d72: 'Block iFrame' # Block iFrame
 plugins:
   ckeditor:
     edition: standard

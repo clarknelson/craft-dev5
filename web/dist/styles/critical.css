@@ -718,6 +718,10 @@ html {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
+  p {
+  margin-bottom: 0.5rem;
+  max-width: 42rem;
+}
   a {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));

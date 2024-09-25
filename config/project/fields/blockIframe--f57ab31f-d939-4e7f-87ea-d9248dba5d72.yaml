@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: blockIframe
+instructions: 'iFrame code to display in the block'
+name: 'Block iFrame'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: true
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

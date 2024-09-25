@@ -6,9 +6,26 @@ headingLevels:
   - 5
   - 6
 name: Simple
+options:
+  alignment:
+    options:
+      - left
+      - right
 toolbar:
   - heading
+  - createEntry
   - '|'
+  - alignment
   - bold
   - italic
   - link
+  - anchor
+  - pageBreak
+  - '|'
+  - blockQuote
+  - bulletedList
+  - numberedList
+  - outdent
+  - indent
+  - insertImage
+  - mediaEmbed
