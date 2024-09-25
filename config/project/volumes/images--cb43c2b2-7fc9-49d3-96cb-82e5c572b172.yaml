@@ -1,6 +1,7 @@
-color: green
+altTranslationKeyFormat: null
+altTranslationMethod: none
 fieldLayouts:
-  6325a4f7-b8c0-4d1c-9ace-3896fead6d4c:
+  f5c6ae02-ad31-4d60-b17c-0fd8c12d3712:
     tabs:
       -
         elementCondition: null
@@ -10,7 +11,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-09-25T17:36:38+00:00'
+            dateAdded: '2024-09-25T18:45:23+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -30,44 +31,46 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 05ac12ba-8dcb-4b75-8fff-6f26dc6c2d39
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 62d6039c-e747-4314-bf45-f296fe548401
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            attribute: alt
+            class: null
+            cols: null
+            dateAdded: '2024-09-25T18:46:44+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: true
+            required: false
+            rows: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AltField
+            uid: 89a8555c-14c4-44ed-9a57-85c2857be08b
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: b390ebef-725e-437f-a24d-e7a0430685d6
+        uid: 67290f36-fcb6-4a75-be75-ccf3c496bd55
         userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            dateAdded: '2024-09-25T18:47:45+00:00'
-            elementCondition: null
-            fieldUid: 527a76fc-bf75-491a-98b1-8745e1a8ac6f # SEO
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 8756c627-7e84-4cf6-a73f-3805a3bbfcf7
-            userCondition: null
-            warning: null
-            width: 100
-        name: SEO
-        uid: 30688702-61b2-4b37-866b-e852f579a98c
-        userCondition: null
-handle: pages
-hasTitleField: true
-icon: file
-name: Pages
-showSlugField: true
-showStatusField: true
-slugTranslationKeyFormat: null
-slugTranslationMethod: site
-titleFormat: ''
+fs: localAssets
+handle: images
+name: Images
+sortOrder: 1
+subpath: images
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''
