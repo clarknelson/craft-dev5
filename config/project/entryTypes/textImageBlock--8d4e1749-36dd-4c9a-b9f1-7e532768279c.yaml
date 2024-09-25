@@ -1,6 +1,6 @@
 color: teal
 fieldLayouts:
-  1a5ddd31-6b73-4c18-87b8-44f3a46945f5:
+  2cafca83-20f7-4d08-aa4f-b37a73410754:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2024-09-25T18:57:00+00:00'
+            dateAdded: '2024-09-25T19:52:21+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,12 +31,12 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: da13d805-ae74-488c-a695-d48a0745b889
+            uid: 5fe94667-5a0e-421a-9e79-b3da41d7ad27
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-09-25T19:53:11+00:00'
+            dateAdded: '2024-09-25T19:54:07+00:00'
             elementCondition: null
             fieldUid: 9797be5d-2efb-4770-9533-2bbd715a0c7b # Block Anchor
             handle: null
@@ -47,12 +47,12 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 54f25b76-2c73-496f-ba4e-b95a3e6113d4
+            uid: 60ba0a76-6af9-4cfe-b502-980ab2f3d2a4
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2024-09-25T19:50:59+00:00'
+            dateAdded: '2024-09-25T19:54:07+00:00'
             elementCondition: null
             fieldUid: 9ca01644-adc3-480f-8695-e8d08cb10aa3 # Block Content
             handle: null
@@ -63,17 +63,33 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d2aa4fe9-fbf3-4faa-a468-3a65619a61e9
+            uid: 2f171563-8dcc-410d-9ed5-5d90ae64657e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-25T19:54:07+00:00'
+            elementCondition: null
+            fieldUid: 06f7c30f-645c-489e-8904-daafa63d6d8d # Block Images
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f4f6e5d5-7988-4c52-b613-ab8b52bb2a8e
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 0aea824a-2d7c-4d36-891b-b9cb049ef462
+        uid: c48a5d6c-c81c-43c8-86e0-661854497c8b
         userCondition: null
-handle: textBlock
+handle: textImageBlock
 hasTitleField: false
-icon: subtitles
-name: 'Text Block'
+icon: image-polaroid
+name: 'Text + Image Block'
 showSlugField: false
 showStatusField: true
 slugTranslationKeyFormat: null
