@@ -1,13 +1,22 @@
-dateModified: 1727211333
+dateModified: 1727289591
 email:
   fromEmail: email@clarknelson.com
   fromName: 'Craft Dev'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    02eb5833-14a3-487d-afde-cc112f348db4: 'Menu Text' # Menu Text
     4ce5ba56-132c-4aca-9085-8d7f1568d039: 'Craft Dev' # Craft Dev
     8f8318c7-5311-4b13-9a2c-ba5e1ad60ea1: Simple # Simple
+    17bddf63-84fd-4e74-8ec2-e66a058f436a: 'Menu Link' # Menu Link
+    44a916f9-6a95-4aa3-9a01-55398205d5fb: New # New
+    55e07d5f-219a-41ac-8c00-14c62dd24b81: 'Contact Form' # Contact Form
+    323b29c4-5118-4e14-84dd-bf3b0c5e82f1: 'Menu Items' # Menu Items
+    5935110c-eb30-4120-812a-7390e5b2d098: 'Menu Items' # Menu Items
     44839323-84f3-45bd-84de-324e58547d82: 'Craft Dev' # Craft Dev
+    a7b61f14-a0a9-472c-a7b8-59911fed4607: Pages # Pages
+    bea4635d-f923-454a-89a4-810c258cf295: Pages # Pages
+    cac5c284-5703-447e-aade-e70c2f205bf1: Globals # Globals
 plugins:
   ckeditor:
     edition: standard
@@ -17,10 +26,22 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 5.1.1
+  formie:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.4.6
   kint:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  sentry-logger:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  seo:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.2.0
   super-table:
     edition: standard
     enabled: true

@@ -1,0 +1,83 @@
+color: lime
+fieldLayouts:
+  46121ac3-511d-4043-8fa3-952879832588:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-09-25T18:18:18+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 1de4fa2a-9457-4dd8-b930-4b6c91aa4f5c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-25T18:39:02+00:00'
+            elementCondition: null
+            fieldUid: 02eb5833-14a3-487d-afde-cc112f348db4 # Menu Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3c29a56d-a650-4dcc-b9e8-5c5c50a91a9d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-25T18:39:02+00:00'
+            elementCondition: null
+            fieldUid: 17bddf63-84fd-4e74-8ec2-e66a058f436a # Menu Link
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5c7a118e-873e-4fb0-8fd9-696a8c99c307
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 9c8d49fc-6064-4296-ac40-efea372d19b0
+        userCondition: null
+handle: menuItems
+hasTitleField: false
+icon: bars
+name: 'Menu Items'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: '{menuText}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

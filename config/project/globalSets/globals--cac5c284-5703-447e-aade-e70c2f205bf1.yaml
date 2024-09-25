@@ -1,0 +1,28 @@
+fieldLayouts:
+  d2fdcebe-4003-4d02-a92a-4abe2a0981b4:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-09-25T18:39:51+00:00'
+            elementCondition: null
+            fieldUid: 5935110c-eb30-4120-812a-7390e5b2d098 # Menu Items
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5848bcfc-0b41-41da-8425-e22b73636a17
+            userCondition: null
+            warning: null
+            width: 100
+        name: Menu
+        uid: 70397123-145b-46c9-9df4-1fe4b154f965
+        userCondition: null
+handle: globals
+name: Globals
+sortOrder: 1
