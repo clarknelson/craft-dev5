@@ -10,12 +10,10 @@ We run ddev using [OrbStack](https://orbstack.dev/) which runs a dockercontainer
 
 To get started:
 
-* install docker ddev and orbstack
-* go to the root dir
-  * composer install
-* make sure that the db is set up
+* Install docker ddev and orbstack
+* run `composer install` to install all php packages
+* Import the db with `ddev import-db --src=path/to/your_db.sql`
   * check that all .env variables are set up right (`CRAFT_DB_*` env vars)
-  * run ddev import-db --src=path/to/your_db.sql
-* `ddev craft setup`
-  * Make sure that all of the prompts match the .env and you should be set up 
-
+* run `ddev craft setup` in the root dir
+  * Make sure that all of the prompts match the .env 
+* run `ddev start` in the root dir
